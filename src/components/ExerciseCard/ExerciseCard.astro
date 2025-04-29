@@ -1,0 +1,81 @@
+---
+import { type CollectionEntry } from "astro:content";
+import type { Exercise } from "@/Types/interfaces";
+
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
+import { slugify } from "@js/textUtils"; 
+
+
+// utils
+import { formatDate, categorify } from "@js/textUtils";
+
+interface Props {
+	post: Exercise;
+	showDescription?: boolean;
+	class?: string;
+	rest?: any; // catch-all for any additional parameters, such as "aria-label"
+}
+
+const { post, showDescription = false, class: className, ...rest } = Astro.props as Props;
+const { name, muscle , indications , heroImage } = post;
+
+const img = heroImage ? heroImage : 'https://res.cloudinary.com/di4d4tjhr/image/upload/v1745810361/28931101-Scissors-_advanced_-_female__small_o5cvtd.jpg'
+---							
+
+<a
+	href={`/ejercicios/${slugify(post.name)}/`}
+	aria-label={`Read ${name}`}
+	class=`primary-focus w-full group flex flex-col max-w-lg md:max-w-full mx-auto p-2 border border-base-200 shadow-md rounded-lg transition-transform duration-300 hover:scale-[1.02] ${className}`
+	{...rest}
+	transition:name={`blog-${post.name}`}
+>
+	<div>
+		<div
+			class=`overflow-hidden rounded-md border border-base-100 shrink-0 justify-center sm:justify-normal`
+		>
+		<figure class="h-28">
+			<Image
+				src={img}
+				alt={`Ejercicio ${name}`}
+				height={100}
+				width={200}
+				class="h-full  w-full object-cover"
+				transition:name={`blog-image-${post.name}`}
+			/>
+		</figure>
+		</div>
+	</div>
+	<div class="w-full">
+		<div class="mt-1 flex w-full flex-wrap justify-between">
+			<!-- categories -->
+			<div class="flex items-center gap-3">
+				<div class="flex flex-wrap items-center gap-x-1 text-sm opacity-80">
+					<Icon name="tabler:category" class="h-4 w-4" />
+					{muscle}</div>
+				</div>
+			</div>
+
+			<!-- published date -->
+			<!-- <div class="ml-auto text-xs opacity-70 md:text-sm">
+				<div class="flex">
+					<p class="whitespace-nowrap">
+						<time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+					</p>
+				</div>
+			</div> -->
+		</div>
+
+		<!-- title -->
+		<div class="mt-1">
+			<h2
+				class="group-hover:text-primary-600 inline text-lg font-semibold transition duration-300 md:text-xl"
+			>
+				{name}
+			</h2>
+		</div>
+
+		<!-- description -->
+		<!-- {showDescription && <p class="description mt-1 text-sm">{description}</p>} -->
+	</div>
+</a>

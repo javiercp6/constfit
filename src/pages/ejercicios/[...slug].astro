@@ -1,0 +1,115 @@
+---
+import { render } from "astro:content";
+import { type InferGetStaticPropsType } from "astro";
+import allExercises from '@/data/exercicies/abs.json';
+
+import { categorify, slugify } from "@js/textUtils";
+// layout
+import ExercisieLayout from "@layouts/ExercisieLayoutCentered.astro";
+import Button from "@components/Button/Button.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+// utils
+import { getAllPosts } from "@js/blogUtils";
+
+export async function getStaticPaths() {
+	const posts = await getAllPosts();
+
+	return allExercises.map((post) => ({
+		params: { slug: slugify(post.name)  },
+		props: post,
+	}));
+}
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const post = Astro.props as Props;
+/* const { Content } = await render(post); */
+---
+
+<!-- <BlogLayout post={post}>
+	<Content />
+</BlogLayout> -->
+
+
+
+
+
+
+
+<BaseLayout
+	title={post.name}
+	description={`Detalles del ejercicio ${post.name}`}
+>
+	<article class="site-container pt-24 md:pt-36">
+		<!-- Blog post info -->
+		<div class="mx-auto flex max-w-[800px] flex-col items-center">
+			<div class="flex w-full">
+				<div class="mx-auto text-center">
+					<!-- categories -->
+					<div class="flex w-full justify-center gap-3 md:text-lg">
+						{post.muscle}
+					</div>
+
+					<!-- title -->
+					<h1 class="h1 mt-4">{post.name}</h1>
+
+					<div class="mt-4 flex w-full justify-center gap-4 text-sm md:text-base">
+						<!-- author info -->
+						
+
+						<!-- Date -->
+	
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- article content -->
+		<div class="mt-10 w-full">
+			<div class="mx-auto max-w-3xl w-full">
+				<div class="text-base-content text-base">
+
+					<section id="blog-post-content" class="markdown-content mx-auto md:text-lg">
+						<div class="flex w-full gap-11">
+							<div class="w-1/2">
+								<video 
+									preload="auto" 
+									loop
+									poster="placeholder.jpg" 
+									src="https://res.cloudinary.com/di4d4tjhr/video/upload/v1745807216/08571201-Wheel-Rollout_Waist_lwmcky.mp4" 
+									autoplay 
+									poster="https://res.cloudinary.com/di4d4tjhr/image/upload/v1745810361/28931101-Scissors-_advanced_-_female__small_o5cvtd.jpg">
+									<source src="video.mp4" type="video/mp4">
+  									<source src="video.webm" type="video/webm">
+									Tu navegador no admite el elemento <code>video</code>.
+								</video>
+							</div>
+							<div class="w-1/2"> 
+								<ol>
+								{
+									post.indications.map((indication) => (
+										<li>{indication}</li>
+									))
+								}
+								</ol>
+							</div>
+						
+						</div>
+					</section>
+
+					<!-- end of post, extra stuff (like share buttons) here -->
+					<hr class="border-accent my-4 w-full border-t-2" />
+
+					<!-- button to go back to all posts -->
+					<div class="flex justify-center">
+						<Button variant="outline" href="/ejercicios/todos" arrow="left" class="">
+							Todos los ejercicios
+						</Button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</BaseLayout>
+

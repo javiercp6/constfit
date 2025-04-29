@@ -1,0 +1,530 @@
+[
+  {
+    "name": "Biceps",
+    "muscle": "Biceps",
+    "indications": [
+      "Siéntate en el suelo con el torso inclinado hacia atrás y las manos apoyadas a los costados para equilibrarte.",
+      "Activa el abdomen y eleva los pies del suelo manteniendo las piernas extendidas.",
+      "Cruza las piernas alternadamente en movimiento de tijera mientras respiras de manera controlada.",
+      "Continúa hasta alcanzar fatiga muscular."
+    ]
+  },
+  {
+    "name": "Biceps 2",
+    "muscle": "Biceps",
+    "indications": [
+      "Colócate de rodillas y agarra la rueda con ambas manos bajo los hombros.",
+      "Extiende el cuerpo lentamente usando la fuerza abdominal hasta sentir tensión.",
+      "Regresa con control a la posición inicial sin perder la postura.",
+      "Mantén la columna neutra durante todo el ejercicio."
+    ]
+  },
+  {
+    "name": "Abdominales Tijera",
+    "muscle": "abdominales",
+    "indications": [
+      "Siéntate en el suelo con el torso inclinado hacia atrás y las manos apoyadas a los costados para equilibrarte.",
+      "Activa el abdomen y eleva los pies del suelo manteniendo las piernas extendidas.",
+      "Cruza las piernas alternadamente en movimiento de tijera mientras respiras de manera controlada.",
+      "Continúa hasta alcanzar fatiga muscular."
+    ],
+    "heroImage": "https://res.cloudinary.com/di4d4tjhr/image/upload/v1745810361/28931101-Scissors-_advanced_-_female__small_o5cvtd.jpg"
+  },
+  {
+    "name": "Rueda Abdominal",
+    "muscle": "Abdominales",
+    "indications": [
+      "Colócate de rodillas y agarra la rueda con ambas manos bajo los hombros.",
+      "Extiende el cuerpo lentamente usando la fuerza abdominal hasta sentir tensión.",
+      "Regresa con control a la posición inicial sin perder la postura.",
+      "Mantén la columna neutra durante todo el ejercicio."
+    ],
+    "heroImage": "https://res.cloudinary.com/di4d4tjhr/image/upload/v1745811538/Rueda_Abdominal_mcntbw.png"
+  },
+  {
+    "name": "Abdominal Bicicleta",
+    "muscle": "Abdominales",
+    "indications": [
+      "Acuéstate con las piernas flexionadas a 90° y las manos detrás de la nuca.",
+      "Levanta los hombros y gira el torso llevando el codo derecho hacia la rodilla izquierda.",
+      "Alternar lados en un movimiento continuo como pedalear una bicicleta.",
+      "Mantén la tensión abdominal constante."
+    ]
+  },
+  {
+    "name": "Abdominales Bicicleta Piernas Levantadas",
+    "muscle": "Abdominales",
+    "indications": [
+      "Recuéstate con las piernas elevadas y ligeramente flexionadas.",
+      "Contrae el abdomen y acerca el codo derecho a la rodilla izquierda girando el torso.",
+      "Regresa con control y alterna lados manteniendo la postura estable."
+    ]
+  },
+  {
+    "name": "Abdominal Corto con Cable",
+    "muscle": "Abdominales",
+    "indications": [
+      "Arrodíllate frente al cable y sujeta el mango detrás de la cabeza.",
+      "Mantén los codos fijos y realiza una flexión del torso hacia adelante usando solo el core.",
+      "Controla el regreso a la posición inicial sin relajar la tensión."
+    ]
+  },
+  {
+    "name": "Cable Twist (Down to up)",
+    "muscle": "Abdominales",
+    "indications": [
+      "Ajusta el peso adecuado en la máquina de cables.",
+      "Posiciona la polea en la altura más baja y fija un mango.",
+      "Sujeta el mango con ambas manos manteniendo las muñecas alineadas.",
+      "Da un paso hacia atrás para crear tensión y colócate de perfil.",
+      "Con el mango a la altura de la cadera y brazos extendidos, activa el core.",
+      "Gira el torso diagonalmente llevando el mango hacia el costado opuesto.",
+      "Controla el regreso a la posición inicial sin perder la postura."
+    ]
+  },
+  {
+    "name": "Cable Twist (Up to down)",
+    "muscle": "Abdominales",
+    "indications": [
+      "Configura el peso deseado en la máquina de cables.",
+      "Coloca la polea en la altura máxima y asegura un mango.",
+      "Agarra el mango con ambas manos manteniendo las muñecas neutrales.",
+      "Retrocede ligeramente y adopta una postura lateral.",
+      "Con el mango a la altura del hombro y brazos rectos, contrae el abdomen.",
+      "Gira el torso diagonalmente bajando el mango hacia el centro del cuerpo.",
+      "Regresa con control a la posición inicial manteniendo la postura estable."
+    ]
+  },
+  {
+    "name": "Abdominal Corto",
+    "muscle": "Abdominales",
+    "indications": [
+      "Acuéstate en el suelo con las rodillas flexionadas y pies apoyados.",
+      "Extiende los brazos hacia arriba y coloca las manos detrás de la nuca.",
+      "Activa los abdominales y respira profundamente.",
+      "Levanta los hombros del suelo doblando el torso hacia adelante.",
+      "Baja lentamente hasta la posición inicial exhalando."
+    ]
+  },
+  {
+    "name": "Abdominal Corto (Máquina)",
+    "muscle": "Abdominales",
+    "indications": [
+      "Establece el peso adecuado en la máquina.",
+      "Siéntate con los tobillos asegurados en las almohadillas inferiores.",
+      "Ajusta la almohadilla central en la espalda baja y coloca el pecho en la parte superior.",
+      "Sujeta las manijas laterales para estabilidad.",
+      "Inhala y flexiona el torso empujando la almohadilla superior hacia adelante.",
+      "Mantén la contracción y regresa con control mientras exhalas."
+    ]
+  },
+  {
+    "name": "Abdominal Corto (Con Peso Añadido)",
+    "muscle": "Abdominales",
+    "indications": [
+      "Toma un disco de pesas y recuéstate en el suelo.",
+      "Extiende los brazos y coloca el peso sobre el pecho.",
+      "Flexiona las piernas, eleva los talones y cruza los tobillos.",
+      "Activa el core y levanta los hombros del suelo encogiéndote.",
+      "Mantén la posición y regresa lentamente al inicio mientras expulsas el aire."
+    ]
+  },
+  {
+    "name": "Dead Bug",
+    "muscle": "Abdominales",
+    "indications": [
+      "Extiende una esterilla en el suelo y recuéstate.",
+      "Flexiona las piernas hasta formar un ángulo recto con los muslos perpendiculares al torso.",
+      "Eleva los brazos hacia el pecho manteniendo los codos ligeramente flexionados.",
+      "Activa el abdomen para mantener la columna estable durante el movimiento.",
+      "Extiende alternadamente una pierna hacia adelante manteniéndola cerca del suelo.",
+      "Al mismo tiempo, estira el brazo opuesto hacia atrás sin perder la postura.",
+      "Regresa ambos miembros a la posición inicial controlando el movimiento.",
+      "Alterna lados manteniendo la respiración constante."
+    ]
+  },
+  {
+    "name": "Abdominal Corto en Banco Inclinado",
+    "muscle": "Abdominales",
+    "indications": [
+      "Posicionate en un banco declinado asegurando los pies bajo las almohadillas.",
+      "Recuéstate con la espalda completamente apoyada en el respaldo.",
+      "Coloca las manos detrás de la nuca o cruzadas sobre el pecho.",
+      "Inhala y contrae el abdomen levantando los hombros del banco.",
+      "Mantén la tensión por un instante y regresa lentamente mientras exhalas."
+    ]
+  },
+  {
+    "name": "Abdominal Corto en Banco Inclinado (Con Peso Añadido)",
+    "muscle": "Abdominales",
+    "indications": [
+      "Sujeta un disco de pesas y colócate en el banco declinado con los pies asegurados.",
+      "Recuéstate manteniendo el peso cerca del pecho con ambos brazos extendidos.",
+      "Activa el core y eleva los hombros del banco usando la fuerza abdominal.",
+      "Mantén la posición breve y baja el torso con control.",
+      "Evita arquear la espalda durante todo el ejercicio."
+    ]
+  },
+  {
+    "name": "Dragon Flag",
+    "muscle": "Abdominales",
+    "indications": [
+      "Acuéstate en un banco plano y agarra el borde trasero con ambas manos.",
+      "Extiende el cuerpo en línea recta y activa el abdomen.",
+      "Levanta el torso y las piernas del banco usando solo la fuerza del core.",
+      "Alcanza la máxima altura posible y sostén la posición.",
+      "Baja lentamente hasta regresar al punto inicial exhalando."
+    ]
+  },
+  {
+    "name": "Dragonfly",
+    "muscle": "Abdominales",
+    "indications": [
+      "Recuéstate en un banco plano sujetando el borde trasero con firmeza.",
+      "Extiende el cuerpo en línea recta y contrae el abdomen.",
+      "Usando la fuerza del tronco, eleva el cuerpo del banco hasta alcanzar la máxima altura.",
+      "Mantén la postura estable por un instante.",
+      "Regresa con control al inicio mientras expulsas el aire."
+    ]
+  },
+  {
+    "name": "Rodillas a Codos",
+    "muscle": "Abdominales",
+    "indications": [
+      "Recuéstate en el suelo, flexiona las piernas y cruza la pierna derecha sobre el muslo izquierdo.",
+      "Coloca la mano izquierda detrás de la nuca para estabilidad.",
+      "Activa los abdominales y respira profundamente.",
+      "Levanta el torso y gira el codo izquierdo hacia la rodilla derecha.",
+      "Regresa lentamente a la posición inicial exhalando.",
+      "Al terminar, alterna lados manteniendo la postura estable."
+    ]
+  },
+  {
+    "name": "Aleteo de Piernas",
+    "muscle": "Abdominales",
+    "indications": [
+      "Acuéstese boca abajo en un banco plano sujetándolo con ambas manos.",
+      "Eleve las piernas del suelo manteniéndolas extendidas.",
+      "Contraiga el abdomen y levante las piernas alineadas con el torso.",
+      "Realice movimientos alternos de subida y bajada de piernas con control.",
+      "Mantenga la respiración constante durante todo el ejercicio."
+    ]
+  },
+  {
+    "name": "Front Lever Sostenida",
+    "muscle": "Abdominales",
+    "indications": [
+      "Sujete una barra con agarre neutro y brazos extendidos.",
+      "Flexione los cuádriceps y junte los pies.",
+      "Mantenga la columna neutral usando la fuerza del core.",
+      "Inhale y flexione el torso completamente.",
+      "Inicie el front lever inclinándose hacia atrás con el cuerpo rígido.",
+      "Eleve el cuerpo horizontalmente activando espalda, hombros y abdomen.",
+      "Mantenga la posición horizontal lo más estable posible respirando de manera regular."
+    ]
+  },
+  {
+    "name": "Front Lever Elevación",
+    "muscle": "Abdominales",
+    "indications": [
+      "Agarre la barra con las manos separadas al ancho de los hombros.",
+      "Extienda las piernas y active los cuádriceps.",
+      "Mantenga la postura recta usando la fuerza del tronco.",
+      "Flexione el torso y respire profundamente.",
+      "Inicie el movimiento inclinándose hacia atrás con el cuerpo tenso.",
+      "Lleve el cuerpo a posición horizontal usando músculos de espalda y abdomen.",
+      "Mantenga la postura breve y regrese con control.",
+      "Repita el ciclo manteniendo la respiración constante."
+    ]
+  },
+  {
+    "name": "Levantamiento de Rodillas en Barra",
+    "muscle": "Abdominales",
+    "indications": [
+      "Sujeta una barra de dominadas con agarre neutro y brazos extendidos.",
+      "Flexiona las piernas y activa el core mientras retrae los hombros.",
+      "Inhala y eleva las rodillas hacia el torso en movimiento controlado.",
+      "Alcanza la máxima altura sin perder la postura corporal.",
+      "Regresa lentamente evitando arquear la espalda durante el descenso."
+    ]
+  },
+  {
+    "name": "Levantamiento de Piernas en Barra",
+    "muscle": "Abdominales",
+    "indications": [
+      "Agarra la barra de dominadas con las palmas hacia adelante.",
+      "Contrae el abdomen y eleva los pies del suelo manteniendo los brazos rectos.",
+      "Lleva las piernas hacia el torso flexionando las rodillas simultáneamente.",
+      "Elevalas lo máximo posible usando solo la fuerza abdominal.",
+      "Mantén la postura máxima y baja con control manteniendo el equilibrio.",
+      "Exhala al finalizar el movimiento y repite."
+    ]
+  },
+  {
+    "name": "Abdominales Toque al Talón",
+    "muscle": "Abdominales",
+    "indications": [
+      "Recuéstate con las rodillas flexionadas y pies apoyados en el suelo.",
+      "Extiende los brazos a los costados y respira profundamente.",
+      "Gira el torso hacia el lado izquierdo tocando el tobillo con la mano correspondiente.",
+      "Respira nuevamente y alterna hacia el lado derecho manteniendo la tensión abdominal.",
+      "Continúa alternando lados hasta completar la serie."
+    ]
+  },
+  {
+    "name": "Hollow Rock",
+    "muscle": "Abdominales",
+    "indications": [
+      "Acuéstese en una esterilla con brazos a los costados y piernas juntas.",
+      "Activa el abdomen para elevar la pelvis del suelo formando una curva natural.",
+      "Contrae los cuádriceps y eleva los talones levemente manteniendo las piernas extendidas.",
+      "Levanta la nuca y extiende los brazos hacia atrás detrás de la cabeza.",
+      "Mantén la postura lo más estable posible respirando de manera constante."
+    ]
+  },
+  {
+    "name": "Jack Knife (Suspensión)",
+    "muscle": "Abdominales",
+    "indications": [
+      "Fija los pies en las correas de un kit de suspensión.",
+      "Estira el cuerpo formando una línea recta con brazos extendidos.",
+      "Dobla las piernas llevando las rodillas hacia los codos usando la fuerza del core.",
+      "Controla el regreso a la posición inicial manteniendo la postura estable."
+    ]
+  },
+  {
+    "name": "Abdominales en V",
+    "muscle": "Abdominales",
+    "indications": [
+      "Recuéstate con piernas extendidas y brazos a los costados.",
+      "Activa el abdomen y eleva simultáneamente brazos y piernas del suelo.",
+      "Inhala y acerca los codos hacia las rodillas formando un ángulo inclinado.",
+      "Exhala al tocar las espinillas y regresa lentamente a la posición inicial."
+    ]
+  },
+  {
+    "name": "Rodillas al Pecho en Barras Paralelas",
+    "muscle": "Abdominales",
+    "indications": [
+      "Posicionate en una silla de ejercicios apoyando los antebrazos en las barras.",
+      "Retrae los hombros y activa el core para estabilizar el torso.",
+      "Baja los pies de la plataforma usando la fuerza del tronco.",
+      "Levanta las rodillas hacia el pecho en movimiento controlado.",
+      "Regresa con cuidado evitando arquear la espalda durante el descenso."
+    ]
+  },
+  {
+    "name": "L-Sit Sostenido",
+    "muscle": "Abdominales",
+    "indications": [
+      "Colócate en una silla de capitán o barras paralelas.",
+      "Sujeta las manijas con agarre neutro y extiende los brazos.",
+      "Suspéndete en el aire y contrae el abdomen.",
+      "Eleva las piernas hasta posicionarlas paralelas al suelo.",
+      "Mantén la postura estable respirando de manera constante."
+    ]
+  },
+  {
+    "name": "Landmine 180",
+    "muscle": "Abdominales",
+    "indications": [
+      "Fija un extremo de la barra en un soporte landmine y carga el otro lado.",
+      "Agarra la barra con ambas manos manteniendo el brazo inferior apoyado.",
+      "Estira el cuerpo y activa el core para mantener la postura.",
+      "Levanta la barra hacia el pecho doblando los codos.",
+      "Gira el torso llevando la barra hacia el lado opuesto en movimiento fluido.",
+      "Controla el regreso a la posición inicial manteniendo la tensión."
+    ]
+  },
+  {
+    "name": "Pies a Barra",
+    "muscle": "Abdominales",
+    "indications": [
+      "Siéntate en una silla de capitán apoyando los antebrazos en las almohadillas.",
+      "Junta los pies y activa el abdomen para estabilizar la espalda baja.",
+      "Inhala y eleva las piernas en línea recta hacia arriba.",
+      "Baja lentamente sin perder la tensión abdominal.",
+      "Exhala al finalizar el movimiento."
+    ]
+  },
+  {
+    "name": "Levantamiento de Rodillas Tumbado",
+    "muscle": "Abdominales",
+    "indications": [
+      "Recuéstate con los pies juntos y brazos a los costados.",
+      "Activa el abdomen y eleva los pies ligeramente del suelo manteniendo la espalda baja en contacto.",
+      "Inhala y flexiona las piernas hacia el torso formando un ángulo recto.",
+      "Regresa lentamente extendiendo las rodillas sin apoyar los pies."
+    ]
+  },
+  {
+    "name": "Levantamiento de Piernas Tumbado",
+    "muscle": "Abdominales",
+    "indications": [
+      "Acuéstese con las piernas extendidas y palmas planas en el suelo.",
+      "Contraiga el abdomen, inhale y una las piernas.",
+      "Eleve las piernas hasta que los talones apunten al techo usando solo la fuerza abdominal.",
+      "Baje con control evitando arquear la espalda durante todo el movimiento."
+    ]
+  },
+  {
+    "name": "Abdominales Cortos Oblicuos",
+    "muscle": "Abdominales",
+    "indications": [
+      "Posición lateral derecha con rodillas dobladas y piernas apiladas.",
+      "Coloque la mano izquierda detrás de la nuca para estabilidad.",
+      "Inhale y active los oblicuos superiores levantando el hombro derecho del suelo.",
+      "Mantenga la postura breve y regrese con exhalación.",
+      "Repita alternando lados después de completar la serie."
+    ]
+  },
+  {
+    "name": "Plancha",
+    "muscle": "Abdominales",
+    "indications": [
+      "Apóyese en los dedos de los pies y antebrazos formando una línea recta.",
+      "Mantenga los hombros neutrales y contraiga el abdomen para estabilizar el tronco.",
+      "Respire de manera constante sin perder la postura durante el máximo tiempo posible."
+    ]
+  },
+  {
+    "name": "Crunch Inverso",
+    "muscle": "Abdominales",
+    "indications": [
+      "Recuéstate con brazos a los costados y palmas planas.",
+      "Flexione las rodillas cerca del torso manteniéndolas alineadas con las caderas.",
+      "Inhale, active el abdomen y lleve las rodillas hacia el pecho elevando los glúteos.",
+      "Regrese lentamente a la posición inicial exhalando con control."
+    ]
+  },
+  {
+    "name": "Plancha Inversa",
+    "muscle": "Abdominales",
+    "indications": [
+      "Siéntate con piernas extendidas y pies juntos.",
+      "Extiende los brazos detrás del cuerpo con codos rectos y palmas planas.",
+      "Contrae los glúteos y eleva las caderas hacia arriba formando una línea recta.",
+      "Mantén la postura alineada desde la cabeza hasta los pies mirando hacia arriba.",
+      "Activa el core y respira de manera constante durante la ejecución.",
+      "Regresa lentamente a la posición inicial después de completar la serie."
+    ]
+  },
+  {
+    "name": "Russian Twist (Peso Corporal)",
+    "muscle": "Abdominales",
+    "indications": [
+      "Siéntate en el suelo con rodillas flexionadas y pies apoyados.",
+      "Coloca los brazos frente al torso y reclínate ligeramente activando el abdomen.",
+      "Gira el torso hacia un lado manteniendo la tensión abdominal.",
+      "Regresa al centro y alterna hacia el lado opuesto controlando la respiración.",
+      "Continúa alternando lados con movimientos fluidos y constantes."
+    ]
+  },
+  {
+    "name": "Flexión Lateral",
+    "muscle": "Abdominales",
+    "indications": [
+      "Posicionate lateralmente en una máquina de hiperextensión.",
+      "Activa el abdomen y coloca las manos detrás de la nuca.",
+      "Inhala y inclina el torso hacia el lado contrario.",
+      "Exhala al regresar a la posición inicial usando la fuerza de los oblicuos.",
+      "Alterna lados después de completar las repeticiones."
+    ]
+  },
+  {
+    "name": "Curva Lateral (Mancuerna)",
+    "muscle": "Abdominales",
+    "indications": [
+      "Sujeta una mancuerna con un brazo y estira el cuerpo verticalmente.",
+      "Retrae los hombros y activa el core para estabilizar el tronco.",
+      "Inhala y flexiona el torso hacia el lado opuesto al peso.",
+      "Exhala al regresar a la posición inicial manteniendo la postura estable.",
+      "Replica el movimiento alternando lados después de finalizar la serie."
+    ]
+  },
+  {
+    "name": "Plancha Lateral",
+    "muscle": "Abdominales",
+    "indications": [
+      "Acuéstese sobre un costado con el antebrazo apoyado en el suelo.",
+      "Apila las piernas y eleva las caderas formando una línea recta.",
+      "Activa el abdomen para mantener la postura sin perder alineación.",
+      "Mantén la posición lo más estable posible respirando de manera regular.",
+      "Alterna lados después de completar el tiempo o repeticiones."
+    ]
+  },
+  {
+    "name": "Sit Up",
+    "muscle": "Abdominales",
+    "indications": [
+      "Posicionate en una esterilla con el cuerpo extendido.",
+      "Flexiona las rodillas y apoya los pies planos en el suelo.",
+      "Coloca las manos frente al rostro o detrás de la nuca para estabilidad.",
+      "Inhala y contrae el abdomen elevando el torso hacia la posición sentada.",
+      "Mantén la postura breve y regresa lentamente controlando la exhalación."
+    ]
+  },
+  {
+    "name": "Sit Up (Con Peso Añadido)",
+    "muscle": "Abdominales",
+    "indications": [
+      "Coloca un disco de peso al lado y recuéstate con piernas flexionadas.",
+      "Sujeta el disco sobre el pecho manteniendo los brazos estabilizados.",
+      "Activa el core y eleva el torso usando la fuerza abdominal.",
+      "Regresa lentamente al suelo sin perder la tensión muscular."
+    ]
+  },
+  {
+    "name": "Spiderman",
+    "muscle": "Abdominales",
+    "indications": [
+      "Adopta una posición de plancha con antebrazos y dedos de los pies apoyados.",
+      "Mantén la espalda neutra y activa el abdomen para estabilizar el tronco.",
+      "Lleva la rodilla derecha hacia el codo izquierdo en movimiento fluido.",
+      "Alternar lados manteniendo la postura estable durante toda la serie."
+    ]
+  },
+  {
+    "name": "Toque de Pies Abdominales",
+    "muscle": "Abdominales",
+    "indications": [
+      "Recuéstate con las piernas extendidas hacia arriba formando un ángulo recto.",
+      "Extiende los brazos hacia los pies manteniendo los hombros relajados.",
+      "Contrae el abdomen para levantar los omóplatos levemente del suelo.",
+      "Toca los dedos de los pies con las manos o alcanza lo máximo posible sin arquear la espalda."
+    ]
+  },
+  {
+    "name": "Pies a la Barra",
+    "muscle": "Abdominales",
+    "indications": [
+      "Sujeta una barra de dominadas con agarre pronado (palmas hacia adelante).",
+      "Junta los pies y eleva las piernas del suelo para suspender el cuerpo.",
+      "Retrae los hombros y activa el abdomen para estabilizar el tronco.",
+      "Inhala y eleva las piernas en movimiento controlado.",
+      "Alcanza lo máximo posible hasta que los dedos de los pies aproximen la barra.",
+      "Baja lentamente exhalando cerca del final del movimiento."
+    ]
+  },
+  {
+    "name": "Rotación de Torso",
+    "muscle": "Abdominales",
+    "indications": [
+      "Mantén postura erguida con pies separados a la altura de las caderas, codos flexionados y brazos frente al torso.",
+      "Gira el torso hacia un lado manteniendo las caderas estables y apuntando hacia adelante.",
+      "Lleva el movimiento al límite sin perder la alineación.",
+      "Regresa a la posición inicial controlando la exhalación.",
+      "Replica el movimiento hacia el lado opuesto alternando lados."
+    ]
+  },
+  {
+    "name": "Abdominales en V",
+    "muscle": "Abdominales",
+    "indications": [
+      "Recuéstate con piernas extendidas, pies juntos y brazos detrás de la cabeza.",
+      "Activa el abdomen y respira profundamente.",
+      "Levanta simultáneamente las piernas y el torso formando un ángulo inclinado.",
+      "Mantén la postura tensa y regresa lentamente sin apoyar los pies durante las repeticiones."
+    ]
+  }
+]

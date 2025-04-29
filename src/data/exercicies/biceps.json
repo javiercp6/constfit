@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Biceps",
+    "muscle": "Biceps",
+    "indications": [
+      "Siéntate en el suelo con el torso inclinado hacia atrás y las manos apoyadas a los costados para equilibrarte.",
+      "Activa el abdomen y eleva los pies del suelo manteniendo las piernas extendidas.",
+      "Cruza las piernas alternadamente en movimiento de tijera mientras respiras de manera controlada.",
+      "Continúa hasta alcanzar fatiga muscular."
+    ]
+  },
+  {
+    "name": "Biceps 2",
+    "muscle": "Biceps",
+    "indications": [
+      "Colócate de rodillas y agarra la rueda con ambas manos bajo los hombros.",
+      "Extiende el cuerpo lentamente usando la fuerza abdominal hasta sentir tensión.",
+      "Regresa con control a la posición inicial sin perder la postura.",
+      "Mantén la columna neutra durante todo el ejercicio."
+    ]
+  }
+  
+]

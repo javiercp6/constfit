@@ -1,0 +1,103 @@
+---
+// Layouts, Componentes, Utils (como antes)
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Pagination from "@components/Pagination/Pagination.astro";
+import ExerciseCard from "@components/ExerciseCard/ExerciseCard.astro";
+import { countItems } from "@js/blogUtils"; // Revisa si necesitas esta función o solo las claves únicas
+import { categorify, slugify } from "@js/textUtils"; // Necesitarás slugify y categorify
+
+// Importa tus datos JSON
+import allExercises from '@/data/exercicies/abs.json';
+
+export async function getStaticPaths({ paginate }) {
+	const exercises = allExercises;
+
+	// --- AJUSTADO: Extrae la propiedad 'muscle' de cada ejercicio ---
+	const allMuscles = exercises.map((exercise) => exercise.muscle)
+        // Filtra posibles valores nulos o vacíos si los hubiera
+        .filter(muscle => muscle && typeof muscle === 'string');
+
+	allMuscles.push('todos')
+
+    // Obten los músculos únicos y conviértelos a slugs para las URLs/params
+    const uniqueMuscleSlugs = [...new Set(allMuscles.map(muscle => slugify(muscle)))];
+
+
+	// Genera las rutas paginadas para cada slug de músculo
+	// Ya no necesitamos contar, solo iterar sobre los slugs únicos
+	return uniqueMuscleSlugs.flatMap((muscleSlug) => {
+
+		// --- AJUSTADO: Filtra ejercicios comparando el slug del músculo ---
+		const filteredExercises = exercises.filter((exercise) => {
+			// Comprueba que la propiedad muscle exista y sea string
+			if (!exercise.muscle || typeof exercise.muscle !== 'string') {
+                 return false;
+            }
+			// Compara el slug del músculo del ejercicio con el slug de la página actual
+			return slugify(exercise.muscle) === muscleSlug || muscleSlug === 'todos' ;
+		});
+		// ---------------------------------------------
+
+		// Pagina los ejercicios filtrados para este músculo
+		return paginate(filteredExercises, {
+			params: { category: muscleSlug }, // 'category' en la URL será el slug del músculo
+			pageSize: 9, // O el tamaño que prefieras
+		});
+	});
+}
+
+// Obtiene los datos de la página y el parámetro (slug del músculo)
+const { page } = Astro.props; // page.data contiene los ejercicios de esta página
+const { category: muscleSlugFromParam } = Astro.params; // Renombrado para claridad
+
+// Formatea el slug para mostrar un nombre legible (si es necesario)
+const formattedMuscle = categorify(muscleSlugFromParam); // Usa tu función categorify
+
+const muscles = ['todos','abdominales','biceps']
+---
+
+<BaseLayout
+	title={`${formattedMuscle} - Ejercicios`}
+	description={`Ejercicios para el grupo muscular: ${formattedMuscle}`}
+>
+	<div class="mx-auto max-w-4xl pt-18 md:pt-24">
+		<div class="flex justify-center items-center space-x-3">
+			{ muscles.map((m)=> <a href={`/ejercicios/${m.toLowerCase()}`} class={`
+				py-1 px-2.5 cursor-pointer rounded transition-all
+				font-medium text-md capitalize
+				${
+				  formattedMuscle.toLowerCase() === m.toLowerCase()
+					? "bg-green-100 text-green-800"  // Estado activo
+					: "bg-gray-200 text-gray-800 hover:bg-gray-300"  // Estado normal + hover
+				}
+			  `} >{m}</a>)  }
+			<!-- <a href="/exercises/biceps" class="py-1 px-2.5 cursor-pointer border-none rounded bg-gray-200 text-md text-gray-800 font-medium">Biceps</a>
+			<span class="py-1 px-2.5 cursor-pointer border-none rounded bg-green-100 text-md text-green-800 font-medium">Abdominales</span> -->
+		</div>
+	</div>
+	<div class="mx-auto max-w-3xl pt-2 md:pt-6">
+		{
+			formattedMuscle.toLowerCase() === 'todos' ? <h1 class="h1 text-center">
+			Todos los ejercicios
+		</h1> : <h1 class="h1 text-center">
+			Ejercicios para <span class="main-text-gradient">{formattedMuscle.toLowerCase()}</span>
+		</h1>
+		}
+		
+		
+		<hr class="bg-primary-600/50 mx-auto mt-4 max-w-[30%] rounded-full border-none pt-1" />
+		<div class="mt-10 grid gap-4 md:grid-cols-3">
+			{page.data.map((exercise) =>  <ExerciseCard post={exercise} />)}
+		</div>
+		<div class="mt-8 flex justify-center">
+			<Pagination
+				prevUrl={page.url.prev}
+				currPage={page.currentPage}
+				nextUrl={page.url.next}
+				lastPage={page.lastPage}
+			/>
+		</div>
+	</div>
+
+	
+</BaseLayout>

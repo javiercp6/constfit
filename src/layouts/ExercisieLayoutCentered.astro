@@ -1,0 +1,77 @@
+---
+import { type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
+import type { Exercise } from "@/Types/interfaces";
+// main layout
+import BaseLayout from "./BaseLayout.astro";
+
+// components
+import Category from "@components/Category/Category.astro";
+import Button from "@components/Button/Button.astro";
+
+// utils
+import { formatDate } from "@js/textUtils";
+import { getAllAuthorsData } from "@js/blogUtils";
+
+interface Props {
+	post: Exercise;
+}
+
+const { post } = Astro.props as Props;
+const { name , muscle , indications, heroImage } = post;
+
+---
+
+<BaseLayout
+	title={name}
+	description={`Detalles del ejercicio ${name}`}
+>
+	<article class="site-container pt-24 md:pt-36">
+		<!-- Blog post info -->
+		<div class="mx-auto flex max-w-[800px] flex-col items-center">
+			<div class="flex w-full">
+				<div class="mx-auto text-center">
+					<!-- categories -->
+					<div class="flex w-full justify-center gap-3 md:text-lg">
+						{muscle}
+					</div>
+
+					<!-- title -->
+					<h1 class="h1 mt-4">{name}</h1>
+
+					<div class="mt-4 flex w-full justify-center gap-4 text-sm md:text-base">
+						<!-- author info -->
+						
+
+						<!-- Date -->
+	
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- article content -->
+		<div class="mt-10 w-full">
+			<div class="mx-auto max-w-2xl">
+				<div class="text-base-content text-base">
+
+					<section id="blog-post-content" class="markdown-content mx-auto md:text-lg">
+						<slot />
+					</section>
+
+					<!-- end of post, extra stuff (like share buttons) here -->
+					<hr class="border-accent my-4 w-full border-t-2" />
+
+					<!-- button to go back to all posts -->
+					<div class="flex justify-center">
+						<Button variant="outline" href="/blog/" arrow="left" class="">
+							Back to all posts
+						</Button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</BaseLayout>

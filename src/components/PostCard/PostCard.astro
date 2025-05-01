@@ -63,13 +63,25 @@ const { title, description, pubDate, heroImage, categories } = post.data;
 		<!-- title -->
 		<div class="mt-1">
 			<h2
-				class="group-hover:text-primary-600 inline text-lg font-semibold transition duration-300 md:text-xl"
+				class="group-hover:text-primary-600 inline text-lg font-semibold transition duration-300 md:text-xl truncate-line"
 			>
 				{title}
 			</h2>
 		</div>
 
 		<!-- description -->
-		{showDescription && <p class="description mt-1 text-sm">{description}</p>}
+		{showDescription && <p class="description mt-1 text-sm truncate-line">{description}</p>}
 	</div>
 </a>
+
+
+<style>
+
+.truncate-line {
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+</style>

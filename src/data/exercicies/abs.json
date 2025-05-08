@@ -174,7 +174,8 @@
       "Levanta el torso y las piernas del banco usando solo la fuerza del core.",
       "Alcanza la máxima altura posible y sostén la posición.",
       "Baja lentamente hasta regresar al punto inicial exhalando."
-    ]
+    ],
+    "media": ""
   },
   {
     "name": "Dragonfly",
@@ -185,7 +186,8 @@
       "Usando la fuerza del tronco, eleva el cuerpo del banco hasta alcanzar la máxima altura.",
       "Mantén la postura estable por un instante.",
       "Regresa con control al inicio mientras expulsas el aire."
-    ]
+    ],
+    "media": ""
   },
   {
     "name": "Rodillas a Codos",
